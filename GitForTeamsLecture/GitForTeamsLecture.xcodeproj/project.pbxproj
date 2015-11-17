@@ -66,19 +66,16 @@
 		BD68355E1BFB78770081C2CF /* GitForTeamsLecture */ = {
 			isa = PBXGroup;
 			children = (
-				BD6835621BFB78770081C2CF /* AppDelegate.h */,
-				BD6835631BFB78770081C2CF /* AppDelegate.m */,
-				E23290341BFB80BE00C12166 /* Models */,
 				BD6835651BFB78770081C2CF /* ViewController.h */,
 				BD6835661BFB78770081C2CF /* ViewController.m */,
-				BD6835681BFB78770081C2CF /* Main.storyboard */,
+				E23290341BFB80BE00C12166 /* Models */,
+				BD6835621BFB78770081C2CF /* AppDelegate.h */,
+				BD6835631BFB78770081C2CF /* AppDelegate.m */,
 				BD68356B1BFB78770081C2CF /* Assets.xcassets */,
-				BD68356D1BFB78770081C2CF /* LaunchScreen.storyboard */,
-				BD6835701BFB78770081C2CF /* Info.plist */,
-				BD68355F1BFB78770081C2CF /* Supporting Files */,
 				BD6835761BFB7F280081C2CF /* Settings.storyboard */,
-				BD6835781BFB80D50081C2CF /* FISTom.h */,
-				BD6835791BFB80D50081C2CF /* FISTom.m */,
+				BD6835681BFB78770081C2CF /* Main.storyboard */,
+				BD68356D1BFB78770081C2CF /* LaunchScreen.storyboard */,
+				BD68355F1BFB78770081C2CF /* Supporting Files */,
 			);
 			path = GitForTeamsLecture;
 			sourceTree = "<group>";
@@ -86,6 +83,7 @@
 		BD68355F1BFB78770081C2CF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BD6835701BFB78770081C2CF /* Info.plist */,
 				BD6835601BFB78770081C2CF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -94,6 +92,8 @@
 		E23290341BFB80BE00C12166 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BD6835781BFB80D50081C2CF /* FISTom.h */,
+				BD6835791BFB80D50081C2CF /* FISTom.m */,
 				E232902E1BFB7AA200C12166 /* FISTim.h */,
 				E232902F1BFB7AA200C12166 /* FISTim.m */,
 			);
