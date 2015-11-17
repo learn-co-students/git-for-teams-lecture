@@ -63,8 +63,7 @@
 			children = (
 				BD6835621BFB78770081C2CF /* AppDelegate.h */,
 				BD6835631BFB78770081C2CF /* AppDelegate.m */,
-				E232902E1BFB7AA200C12166 /* FISTim.h */,
-				E232902F1BFB7AA200C12166 /* FISTim.m */,
+				E23290341BFB80BE00C12166 /* Models */,
 				BD6835651BFB78770081C2CF /* ViewController.h */,
 				BD6835661BFB78770081C2CF /* ViewController.m */,
 				BD6835681BFB78770081C2CF /* Main.storyboard */,
@@ -82,6 +81,15 @@
 				BD6835601BFB78770081C2CF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E23290341BFB80BE00C12166 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E232902E1BFB7AA200C12166 /* FISTim.h */,
+				E232902F1BFB7AA200C12166 /* FISTim.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
