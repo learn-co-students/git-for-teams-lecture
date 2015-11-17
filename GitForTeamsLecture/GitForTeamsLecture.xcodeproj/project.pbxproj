@@ -14,7 +14,6 @@
 		BD68356C1BFB78770081C2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD68356B1BFB78770081C2CF /* Assets.xcassets */; };
 		BD68356F1BFB78770081C2CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD68356D1BFB78770081C2CF /* LaunchScreen.storyboard */; };
 		BD6835771BFB7F280081C2CF /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6835761BFB7F280081C2CF /* Settings.storyboard */; };
-		BD68357A1BFB80D50081C2CF /* FISTom.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6835791BFB80D50081C2CF /* FISTom.m */; };
 		E23290301BFB7AA200C12166 /* FISTim.m in Sources */ = {isa = PBXBuildFile; fileRef = E232902F1BFB7AA200C12166 /* FISTim.m */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +29,6 @@
 		BD68356E1BFB78770081C2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD6835701BFB78770081C2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD6835761BFB7F280081C2CF /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
-		BD6835781BFB80D50081C2CF /* FISTom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTom.h; sourceTree = "<group>"; };
-		BD6835791BFB80D50081C2CF /* FISTom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTom.m; sourceTree = "<group>"; };
 		E232902E1BFB7AA200C12166 /* FISTim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTim.h; sourceTree = "<group>"; };
 		E232902F1BFB7AA200C12166 /* FISTim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTim.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +73,7 @@
 				BD6835681BFB78770081C2CF /* Main.storyboard */,
 				BD68356D1BFB78770081C2CF /* LaunchScreen.storyboard */,
 				BD68355F1BFB78770081C2CF /* Supporting Files */,
+				BD6835761BFB7F280081C2CF /* Settings.storyboard */,
 			);
 			path = GitForTeamsLecture;
 			sourceTree = "<group>";
@@ -175,7 +173,6 @@
 				BD6835641BFB78770081C2CF /* AppDelegate.m in Sources */,
 				BD6835611BFB78770081C2CF /* main.m in Sources */,
 				E23290301BFB7AA200C12166 /* FISTim.m in Sources */,
-				BD68357A1BFB80D50081C2CF /* FISTom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
