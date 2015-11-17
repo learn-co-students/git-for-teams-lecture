@@ -13,6 +13,7 @@
 		BD68356A1BFB78770081C2CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6835681BFB78770081C2CF /* Main.storyboard */; };
 		BD68356C1BFB78770081C2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD68356B1BFB78770081C2CF /* Assets.xcassets */; };
 		BD68356F1BFB78770081C2CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD68356D1BFB78770081C2CF /* LaunchScreen.storyboard */; };
+		E23290301BFB7AA200C12166 /* FISTim.m in Sources */ = {isa = PBXBuildFile; fileRef = E232902F1BFB7AA200C12166 /* FISTim.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BD68356B1BFB78770081C2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD68356E1BFB78770081C2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD6835701BFB78770081C2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E232902E1BFB7AA200C12166 /* FISTim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTim.h; sourceTree = "<group>"; };
+		E232902F1BFB7AA200C12166 /* FISTim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTim.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				BD6835621BFB78770081C2CF /* AppDelegate.h */,
 				BD6835631BFB78770081C2CF /* AppDelegate.m */,
+				E232902E1BFB7AA200C12166 /* FISTim.h */,
+				E232902F1BFB7AA200C12166 /* FISTim.m */,
 				BD6835651BFB78770081C2CF /* ViewController.h */,
 				BD6835661BFB78770081C2CF /* ViewController.m */,
 				BD6835681BFB78770081C2CF /* Main.storyboard */,
@@ -152,6 +157,7 @@
 				BD6835671BFB78770081C2CF /* ViewController.m in Sources */,
 				BD6835641BFB78770081C2CF /* AppDelegate.m in Sources */,
 				BD6835611BFB78770081C2CF /* main.m in Sources */,
+				E23290301BFB7AA200C12166 /* FISTim.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				BD6835751BFB78770081C2CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
